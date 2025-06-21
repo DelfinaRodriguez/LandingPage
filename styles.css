@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+.cinzel-normal {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+.dm-sans-normal {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-sans-bold {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0; 
+  /* outline: 1px solid yellow; */
+}
+
+.clear {
+  clear: both; 
+  float: none;
+  width: 100% !important;
+}
+
+header {
+  height: 110px;
+  padding: 0px 60px; 
+  background-color: #001021;
+  color: #087E8C
+}
+
+header > h1, nav {
+  display: inline-block
+}
+
+header > h1 {
+  margin-top: 36px;
+  float: left;
+}
+
+header > nav {
+  margin-top: 46px; 
+  float: right;
+}
+
+header > nav > a {
+  color: #FFFFFF;
+  text-decoration: none; 
+  margin-right: 20px; 
+}
+
+header > nav > a:hover {
+  color: #087E8C;
+}
+
+header > nav > a:last-child {
+  margin: 0px;
+}
+
+#hero {
+  height: 740px;
+  background: #2D2F36;
+}
+
+main > section {
+  padding: 0px 60px;
+  display: flow-root;
+}
+
+#moreFilms {
+  background: #001021;
+  padding: 60px 60px;
+}
+
+#hero > div {
+  width: 35%;
+  margin-top: 200px;
+  float: left;
+}
+
+#hero > img {
+  width: 40%;
+  float: right;
+  height: 740px;
+  object-fit: contain;
+  padding-right: 90px;
+}
+
+#hero > div > h1 {
+  margin-bottom: 40px;
+}
+
+#hero > div > p {
+  margin-bottom: 40px;
+}
+  
+#hero > div > h1 {
+  color: #087E8C; 
+  font-size: 56px;
+}
+
+#hero > div > p {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+#hero > div > a > button {
+  padding: 20px 40px;
+  border-radius: 40px;
+  border: none;
+  background: #087E8C; 
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+  
+#hero > div > a > button:hover {
+  cursor: pointer;
+  background: #09353D;
+  color: #000000;
+}
+
+#moreFilms > h2, #moreFilms > p {
+  text-align: center;
+}
+#moreFilms > h2 {
+  color: #087E8C;
+  font-size: 36px;
+}
+
+#moreFilms > p {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 200%;
+}
+
+#moreFilms > div {
+  width: 90%;
+  margin: 0px auto;
+}
+
+#moreFilms > div > article {
+  background: #FFFFFF;
+  border-radius: 24px;
+  width: calc(25% - 80px);
+  height: 525px;
+  float: left; 
+  margin: 0px 20px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+#moreFilms > div > article > img {
+  width: 100%;
+  height: 350px; 
+  object-fit: contain;
+}
+
+#moreFilms > div > article > h3 {
+  font-size: 20px;
+  margin: 20px 0px;
+  text-align: center;
+  color: #09353D;
+}
+
+#moreFilms > div > article > p {
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#moreFilms > div > article > a {
+  text-decoration: none;
+}
+
+#moreFilms > div > article > a > button {
+  display: block;
+  padding: 10px 25px;
+  border-radius: 40px;
+  border: none;
+  background: #087E8C; 
+  margin: 0px auto;
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+#moreFilms > div > article > a > button:hover {
+  cursor: pointer;
+  background: #09353D;
+  color: #000000;
+}
+
+footer {
+  padding: 40px 60px;
+  background: #2D2F36;
+}
+
+footer > p {
+  color: white;
+  font-size: 14px;
+  float: left;
+}
+
+footer > div {
+  float: right;
+}
+
+footer > div > a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: white;
+  margin: 0px 5px;
+}
+
+footer > div > a > i {
+  color: #087E8C;
+  display: block;
+  width: 36px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer > div > a > i:hover {
+  color: #001021;
+}
